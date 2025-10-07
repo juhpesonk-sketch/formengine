@@ -1,0 +1,73 @@
+{
+  "info": {
+    "title": "Ulangan Basa Jawa Kelas 6 Semester 1",
+    "description": "Isenana kanthi temenan lan jujur. Saben pitakon kudu dijawab kabeh. Aja lali ndonga sadurunge miwiti ngisi ulangan. Mugi saget angsal asil ingkang sae.",
+    "shuffleQuestions": true,
+    "quizMode": true,
+    "showScoreAfterSubmit": true
+  },
+  "sections": [
+    {
+      "title": "Identitas Panjenengan",
+      "questions": [
+        {
+          "type": "short",
+          "question": "Jeneng Panjenengan",
+          "required": true
+        },
+        {
+          "type": "short",
+          "question": "Nomer Absen",
+          "required": true
+        },
+        {
+          "type": "short",
+          "question": "Kelas Panjenengan",
+          "required": true
+        },
+        {
+          "type": "date",
+          "question": "Tanggal Dina Iki",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "Bagéan Soal Ulangan",
+      "shuffleQuestions": true,
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Conto soal pilihan ganda: Tembung “ndhuwur” tegesé …",
+          "options": ["Ngisor", "Dhuwur", "Cendhék", "Ngarep"],
+          "correctAnswer": "Dhuwur",
+          "points": 1,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "question": "Conto soal pilihan ganda kompleks: Sing kalebu basa krama yaiku …",
+          "options": ["Mangan", "Nedha", "Turu", "Sare"],
+          "correctAnswers": ["Nedha", "Sare"],
+          "points": 2,
+          "required": true
+        },
+        {
+          "type": "true_false",
+          "question": "Conto soal kategori: Tembung “turu” tegese sare.",
+          "options": ["Sesuai", "Ora Sesuai"],
+          "correctAnswer": "Sesuai",
+          "points": 2,
+          "required": true
+        },
+        {
+          "type": "short",
+          "question": "Conto soal isian: Tembung “bocah” tegese ____.",
+          "correctAnswer": "Anak",
+          "points": 2,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
